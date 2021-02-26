@@ -9,7 +9,7 @@ import dropbox
 
 
 ## create dropbox object and upload image
-dbx = dropbox.Dropbox('xDGQGK6on4AAAAAAAAAA70D_7U95KJEpFt3_AyBdJVRqc-bAbsDKV3-1FGvWVAVs')
+dbx = dropbox.Dropbox('')
 
 def uploadFile(fileFrom, fileTo):
 	f = open(fileFrom,"rb")
